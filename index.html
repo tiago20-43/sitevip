@@ -1,9 +1,87 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
-    <title>Meu Site</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compre Agora - Avacoins</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #000; /* Tela preta */
+            color: #fff; /* Texto branco */
+        }
+        .container {
+            text-align: center;
+            padding: 40px;
+            background-color: #111; /* Preto suave para contraste */
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+            max-width: 500px;
+        }
+        h1 {
+            color: #fff;
+            margin-bottom: 20px;
+        }
+        p {
+            color: #ccc;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+        .video-container {
+            margin: 20px 0;
+        }
+        .button {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 18px;
+            font-weight: bold;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin: 10px;
+        }
+        .pix-button {
+            background-color: #007bff;
+        }
+        .pix-button:hover {
+            background-color: #0056b3;
+        }
+        .whatsapp-button {
+            background-color: #25d366;
+        }
+        .whatsapp-button:hover {
+            background-color: #128c7e;
+        }
+    </style>
 </head>
 <body>
-    <h1>Olá Mundo!</h1>
+
+<div class="container">
+    <h1>Compre Seus Avacoins Agora!</h1>
+    <p>Clique no botão abaixo para fazer o pagamento via Pix. Após a compra, entre em contato pelo WhatsApp para enviar o comprovante.</p>
+    
+    <a href="https://link.mercadopago.com.br/avacoins" class="button pix-button">Comprar com Pix</a>
+    
+    <div class="video-container">
+        <div style="position:relative; width:100%; height:0px; padding-bottom:56.250%">
+            <iframe allow="fullscreen;autoplay" allowfullscreen height="100%" src="https://streamable.com/e/x6k72l?autoplay=1" width="100%" style="border:none; width:100%; height:100%; position:absolute; left:0px; top:0px; overflow:hidden;"></iframe>
+        </div>
+    </div>
+    
+    <a href="https://api.whatsapp.com/send?phone=5583991646358&text=Ol%C3%A1%20Avacoins%20palace1%20&fbclid=PAZXh0bgNhZW0CMTEAAadNq3rS9Rm-AsfJgr-Pe0HSCsxFJYgGjgBR40AAqzeOx3aZAzSVTAEf1-tENg_aem_O5mbXxw3AQARSRB_AbD3oA" class="button whatsapp-button">Falar no WhatsApp</a>
+    
+    <p style="margin-top: 30px;">
+        <strong>Importante:</strong> Após o pagamento, clique no botão "Falar no WhatsApp" para enviar seu comprovante e receber seu produto.
+    </p>
+</div>
+
 </body>
 </html>
